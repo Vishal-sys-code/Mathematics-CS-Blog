@@ -33,16 +33,9 @@ n! =~ sqrt(2*pi*n) * pow((n/e), n)
 
 <b>```Code :```</b>
 
-```
-long long int stirlingApproximation(int n){
-    if (n == 1)
-        return 1;
-    long long int z;
-    float e = 2.71;
-    z = sqrt(2*3.14*n) * pow((n/e), n);
-    return z;
-}
-```
+<a href=""><img src="https://drive.google.com/uc?export=view&id=1CMoIsTCvjvayY3oIiU4jqvzxP_m_iOdF" 
+style="width: 350px; max-width: 100%; height: auto" title="Click to enlarge picture"></a>
+
 
 <hr>
 
@@ -61,22 +54,13 @@ style="width: 450px; max-width: 100%; height: auto" title="Click to enlarge pict
 
 <b>```Implementation 1 :```</b>
 
-```
-def ramanujan(x):
-    fact = sqrt(pi)*(x/e)**x
-    fact *= (((8*x + 4)*x + 1)*x + 1/30.)**(1./6.)
-    return fact
-```
+<a href=""><img src="https://drive.google.com/uc?export=view&id=1kv3MmnEJiJktKqn-rpSIHrbFaSYSGVwD" 
+style="width: 350px; max-width: 100%; height: auto" title="Click to enlarge picture"></a>
+
 
 <b>```Implementation 2 (trickier implementation):```</b>
 
-```
-def ramanujan2(x):
-    fact = sqrt(pi)*(x/e)**x
-    fact *= (((8*x + 4)*x + 1)*x + 1/30.)**(1./6.)
-    if isinstance(x, int):
-        fact = int(fact)
-    return fact
-```
+<a href=""><img src="https://drive.google.com/uc?export=view&id=1lJ9_l8jNWYM-o2QqkLZDHeiBwy1_eSKa" 
+style="width: 350px; max-width: 100%; height: auto" title="Click to enlarge picture"></a>
 
 <hr>
