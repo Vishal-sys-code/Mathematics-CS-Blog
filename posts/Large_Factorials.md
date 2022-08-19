@@ -1,7 +1,7 @@
 ---
 title: 'Higher Factorials'
 date: 'August 19, 2022'
-excerpt: ''
+excerpt: 'Solving the higher factorials with an approximation'
 cover_image: '/images/posts/factorial.jpg'
 ---
 # <b>Higher Factorials</b>
