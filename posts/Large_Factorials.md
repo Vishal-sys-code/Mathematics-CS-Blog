@@ -1,5 +1,5 @@
 ---
-title: 'Large Factorials'
+title: 'Higher Factorials'
 date: 'August 19, 2022'
 excerpt: ''
 cover_image: '/images/posts/factorial.jpg'
