@@ -63,20 +63,20 @@ style="width: 450px; max-width: 100%; height: auto" title="Click to enlarge pict
 
 ```
 def ramanujan(x):
-        fact = sqrt(pi)*(x/e)**x
-        fact *= (((8*x + 4)*x + 1)*x + 1/30.)**(1./6.)
-        return fact
+    fact = sqrt(pi)*(x/e)**x
+    fact *= (((8*x + 4)*x + 1)*x + 1/30.)**(1./6.)
+    return fact
 ```
 
 <b>```Implementation 2 (trickier implementation):```</b>
 
 ```
 def ramanujan2(x):
-        fact = sqrt(pi)*(x/e)**x
-        fact *= (((8*x + 4)*x + 1)*x + 1/30.)**(1./6.)
-        if isinstance(x, int):
-             fact = int(fact)
-        return fact
+    fact = sqrt(pi)*(x/e)**x
+    fact *= (((8*x + 4)*x + 1)*x + 1/30.)**(1./6.)
+    if isinstance(x, int):
+        fact = int(fact)
+    return fact
 ```
 
 <hr>
